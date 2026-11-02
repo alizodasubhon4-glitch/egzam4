@@ -89,6 +89,54 @@
 .text5{
     display: none;
 }
+.section1{
+    width: 100%;
+    height: 400px;
+}
+.section2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text6{
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    color: #016CA8;
+}
+.text7{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #016CA8;
+}
+.text8{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+}
+.button3{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #07AF91;
+    border: 0;
+    color: white;
+}
+.button3:hover{
+    cursor: pointer;
+    transition: all 0.0s;
+    background: #067e68;
+}
 @media(max-width: 500px){
     .header{
         width: 100%;
@@ -130,5 +178,58 @@
     .button2{
         margin-left: 100px;
         font-size: 15px;
+    }
+    .section1 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .box4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .text6 {
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .img2 {
+        width: 200px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: -480px;
+    }
+    .text7 {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    .text8 {
+        font-size: 13px;
+        line-height: 2;
+        text-align: center;
+        margin: 0 0 15px;
+    }
+    .text8 br {
+        display: none;
+    }
+    .button3 {
+        width: 100%;
+        height: 48px;
+        border: 0;
+        border-radius: 5px;
+        background-color: #0bb195;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
     }
 }
