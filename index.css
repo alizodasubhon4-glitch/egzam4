@@ -1476,6 +1476,26 @@
   font-size: 11px;
   color: #777;
 }
+.section25 {
+  background: #fff;
+  padding: 40px 12px;
+}
+
+.section26 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.box71 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+.img32 {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
 @media(max-width: 500px){
     .header{
         width: 100%;
@@ -2287,4 +2307,27 @@
       width: 28%;
       font-size: 12px;
     }
+     .section25 {
+    padding: 24px 12px;
+    }
+    .box71 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .box71 .img32 {
+      width: 20%;
+      height: auto;
+      border-radius: 12px;
+    }
+    .box71 .img34 {
+      width: 30%;
+    }
+    .box71 .img36 {
+      display: none;
+    }
+    .box71 .img37 {
+      display: none;
+  }
 }  
